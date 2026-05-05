@@ -1,0 +1,24 @@
+"use client";
+import { motion } from "framer-motion";
+import { ReactNode } from "react";
+
+const variants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.4, 0, 0.2, 1] } },
+};
+
+export default function SectionMotion({ children, className = "", delay = 0, id }) {
+  return (
+    <motion.section
+      id={id}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.3 }}
+      variants={variants}
+      transition={{ delay }}
+      className={className}
+    >
+      {children}
+    </motion.section>
+  );
+}
