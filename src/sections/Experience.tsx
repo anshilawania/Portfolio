@@ -62,7 +62,7 @@ export default function Experience() {
                 aria-label="Next Experience"
                 className="text-2xl px-2 py-1 text-[#ec4899]"
                 disabled={current === experiences.length - 1}
-                onClick={() => setCurrent((c) => Math.min(experiences.length - 1, c + 1))}
+                onClick={() => setCurrent((c: number) => Math.min(experiences.length - 1, c + 1))}
                 style={{ opacity: current === experiences.length - 1 ? 0.3 : 1 }}
               >
                 &#62;
