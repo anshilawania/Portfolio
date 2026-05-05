@@ -44,7 +44,7 @@ export default function Experience() {
                 aria-label="Previous Experience"
                 className="text-2xl px-2 py-1 text-[#00bbc4]"
                 disabled={current === 0}
-                onClick={() => setCurrent((c) => Math.max(0, c - 1))}
+                onClick={() => setCurrent((c: number) => Math.max(0, c - 1))}
                 style={{ opacity: current === 0 ? 0.3 : 1 }}
               >
                 &#60;
