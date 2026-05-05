@@ -1,7 +1,6 @@
 "use client";
 import { ReactNode } from "react";
 import { motion } from "framer-motion";
-import { ReactNode } from "react";
 
 const variants = {
   hidden: { opacity: 0, y: 40 },
