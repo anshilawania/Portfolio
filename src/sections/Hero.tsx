@@ -51,8 +51,9 @@ export default function Hero() {
         </div>
         <div className="flex gap-4 mt-6">
           <a
-            href="/resume-anshi-lawania.pdf"
-            download
+            href="https://drive.google.com/uc?export=download&id=1J3c1xIhUfB3K9WKefvP_-QEeQ2qzMr61"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-8 py-3 rounded-full font-bold shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-200 border-2 border-white/40"
           >
             <span className="gradient-text">Download Resume</span>
