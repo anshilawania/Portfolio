@@ -29,7 +29,7 @@ export default function Hero() {
         </p>
         <div className="flex gap-4 mt-4">
           <a
-            href="https://www.linkedin.com/in/anshilawania/"
+            href="https://www.linkedin.com/in/anshi-lawania-254154260"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full p-3 gradient-text border-2 border-white/40 hover:scale-110 transition-all duration-200 shadow-lg"
