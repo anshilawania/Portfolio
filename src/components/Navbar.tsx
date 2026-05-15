@@ -26,7 +26,7 @@ export default function Navbar() {
             key={link.label}
             href={link.href}
             className="nav-link font-medium text-base text-[#ec4899] transition-transform duration-200 transform hover:scale-110 hover:font-bold focus:scale-110 focus:font-bold outline-none focus:outline-none"
-            style={{ textDecoration: 'none', textShadow: '0 2px 12px #00bbc4', WebkitTapHighlightColor: 'transparent' }}
+            style={{ textDecoration: 'none', textShadow: '0 2px 6px rgba(0,187,196,0.5)', WebkitTapHighlightColor: 'transparent' }}
             tabIndex={0}
             onMouseDown={e => e.preventDefault()}
           >
@@ -48,13 +48,13 @@ export default function Navbar() {
       </div>
       {/* Mobile Dropdown */}
       {menuOpen && (
-        <div className="fixed top-4 right-4 w-32 max-w-xs h-auto bg-black shadow-2xl flex flex-col items-center py-4 px-2 gap-0 animate-fade-in z-40 border border-[#23272f]/60">
+        <div className="fixed top-4 right-4 w-44 max-w-xs h-auto bg-black shadow-2xl flex flex-col items-center py-4 px-2 gap-0 animate-fade-in z-40 border border-[#23272f]/60 rounded-2xl">
           {navLinks.map((link) => (
             <a
               key={link.label}
               href={link.href}
-              className="font-bold text-base text-[#ec4899] w-full text-center py-1 rounded transition-transform duration-200 hover:scale-110 focus:scale-110 gradient-text"
-              style={{ textDecoration: 'none', textShadow: '0 2px 12px #00bbc4', WebkitTapHighlightColor: 'transparent', lineHeight: '1.2' }}
+              className="font-bold text-base text-[#ec4899] w-full text-center py-2 rounded-lg transition-transform duration-200 hover:scale-110 focus:scale-110 gradient-text"
+              style={{ textDecoration: 'none', textShadow: '0 2px 6px rgba(0,187,196,0.5)', WebkitTapHighlightColor: 'transparent', lineHeight: '1.7' }}
               tabIndex={0}
               onClick={() => setMenuOpen(false)}
             >
