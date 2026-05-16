@@ -84,8 +84,8 @@ export default function Contact() {
           />
           <button
             type="submit"
-            className="px-8 py-3 rounded-full font-bold shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-200 border-2 border-white/40"
-              style={{ background: 'linear-gradient(90deg, rgba(0,187,196,0.5) 0%, rgba(236,72,153,0.5) 100%)' }}
+            className="px-8 py-3 rounded-full font-bold shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-200 border-2 border-white/40 sm:px-4 sm:py-2 sm:rounded-lg"
+            style={{ background: 'linear-gradient(90deg, rgba(0,187,196,0.5) 0%, rgba(236,72,153,0.5) 100%)' }}
             disabled={loading}
           >
             <span style={{ color: '#fff' }}>{loading ? "Sending..." : "Send Message"}</span>

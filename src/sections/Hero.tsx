@@ -49,22 +49,22 @@ export default function Hero() {
             <FaGithub className="text-2xl" style={{ color: '#ec4899' }} />
           </a>
         </div>
-        <div className="flex gap-4 mt-6">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-6 mt-6 w-full md:w-auto">
           <a
             href="https://drive.google.com/uc?export=download&id=1J3c1xIhUfB3K9WKefvP_-QEeQ2qzMr61"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 rounded-full font-bold shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-200 border-2 border-white/40"
-              style={{ background: 'linear-gradient(90deg, rgba(0,187,196,0.5) 0%, rgba(236,72,153,0.5) 100%)' }}
+            className="px-8 py-3 rounded-full font-bold text-base shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-200 border-2 border-white/40 text-center whitespace-nowrap"
+            style={{ background: 'linear-gradient(90deg, rgba(0,187,196,0.5) 0%, rgba(236,72,153,0.5) 100%)' }}
           >
-                <span style={{ color: '#fff' }}>Download Resume</span>
+            <span style={{ color: '#fff' }}>Download Resume</span>
           </a>
           <a
             href="#contact"
-            className="px-8 py-3 rounded-full font-bold hover:scale-105 hover:shadow-2xl transition-transform duration-200 border-2 border-white/40"
-              style={{ background: 'linear-gradient(90deg, rgba(0,187,196,0.5) 0%, rgba(236,72,153,0.5) 100%)' }}
+            className="px-8 py-3 rounded-full font-bold text-base hover:scale-105 hover:shadow-2xl transition-transform duration-200 border-2 border-white/40 text-center whitespace-nowrap"
+            style={{ background: 'linear-gradient(90deg, rgba(0,187,196,0.5) 0%, rgba(236,72,153,0.5) 100%)' }}
           >
-                <span style={{ color: '#fff' }}>Contact Me</span>
+            <span style={{ color: '#fff' }}>Contact Me</span>
           </a>
         </div>
       </motion.div>
