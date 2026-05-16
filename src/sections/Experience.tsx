@@ -4,7 +4,7 @@ import SectionMotion from "../components/SectionMotion";
 export default function Experience() {
   return (
     <SectionMotion className="w-full max-w-4xl mx-auto py-20 px-6 flex flex-col gap-8 items-center" id="experience">
-      <h2 className="text-3xl md:text-5xl font-bold gradient-text mb-8">
+      <h2 className="text-3xl md:text-5xl font-bold gradient-text">
         Experience
       </h2>
       {/* Responsive Experience Slider for small screens */}

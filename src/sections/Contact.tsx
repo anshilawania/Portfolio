@@ -48,7 +48,7 @@ export default function Contact() {
         <div className="absolute top-1/4 left-1/3 w-[220px] h-[220px] bg-gradient-to-tr from-[#00bbc4]/30 via-[#ec4899]/20 to-[#23272f]/0 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-0 right-0 w-[180px] h-[180px] bg-gradient-to-br from-[#ec4899]/30 via-[#23272f]/0 to-[#00bbc4]/10 rounded-full blur-2xl animate-pulse" />
       </div>
-      <h2 className="text-3xl md:text-5xl font-bold gradient-text mb-4 z-10">
+      <h2 className="text-3xl md:text-5xl font-bold gradient-text z-10">
         Contact Me
       </h2>
       {submitted ? (

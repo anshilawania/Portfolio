@@ -23,13 +23,13 @@ const skills = [
 
 export default function Skills() {
   return (
-    <SectionMotion id="skills" className="w-full max-w-5xl mx-auto py-20 px-6 flex flex-col items-center relative overflow-hidden">
+    <SectionMotion id="skills" className="w-full max-w-5xl mx-auto py-20 px-6 flex flex-col gap-8 items-center relative overflow-hidden">
       {/* Animated background gradients and particles */}
       <div className="absolute inset-0 pointer-events-none z-0">
         <div className="absolute top-1/4 left-1/3 w-[320px] h-[320px] bg-gradient-to-tr from-[#00bbc4]/30 via-[#ec4899]/20 to-[#23272f]/0 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-0 right-0 w-[220px] h-[220px] bg-gradient-to-br from-[#ec4899]/30 via-[#23272f]/0 to-[#00bbc4]/10 rounded-full blur-2xl animate-pulse" />
       </div>
-      <h2 className="text-3xl md:text-5xl font-bold gradient-text mb-8 z-10">
+      <h2 className="text-3xl md:text-5xl font-bold gradient-text z-10">
         Skills
       </h2>
       <div className="grid w-full z-10 gap-8 justify-center"
